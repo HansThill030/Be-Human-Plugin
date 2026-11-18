@@ -1,0 +1,10 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies & Verification Artifacts
+node_modules/
+.be-human-verify/
+*.log

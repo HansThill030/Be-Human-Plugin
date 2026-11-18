@@ -1,0 +1,12 @@
+{
+  "name": "be-human",
+  "displayName": "Be Human",
+  "version": "1.0.0",
+  "description": "Removes the AI face from apps, UIs, copy, and anything produced with AI — replacing Lucide/purple-gradient slop with Phosphor Icons, Lottie motion, visual anchors, balanced hex palettes, real DESIGN.md systems, de-AI prose (EN/pt-BR), and Playwright browser verification.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Strip the AI look from this app: swap Lucide for Phosphor Icons, balance the hex palette, and verify in Playwright",
+    "Humanize this text or UI copy so it sounds natural and free of AI patterns",
+    "Build this page from a visual anchor or DESIGN.md instead of generic AI templates"
+  ]
+}

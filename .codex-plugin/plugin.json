@@ -1,0 +1,29 @@
+{
+  "name": "be-human",
+  "version": "1.0.0",
+  "description": "Removes the AI face from apps, UIs, copy, slides, and anything produced with AI.",
+  "license": "MIT",
+  "keywords": [
+    "anti-slop",
+    "design",
+    "ui",
+    "ux",
+    "humanizer",
+    "phosphor",
+    "playwright",
+    "design-md"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Be Human",
+    "shortDescription": "Remove the AI face from apps, UIs, copy, and slides.",
+    "longDescription": "Replaces Lucide-react and purple-gradient AI slop with Phosphor Icons, Lottie micro-interactions, visual anchors, pre-balanced hex palettes, 84 real-world DESIGN.md systems, EN/pt-BR copy humanization, and Playwright real-browser verification.",
+    "category": "Design",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Strip the AI look from this app: swap Lucide for Phosphor Icons, balance the hex palette, and verify in Playwright",
+      "Humanize this text or UI copy so it sounds natural and free of AI patterns",
+      "Build this page from a visual anchor or DESIGN.md instead of generic AI templates"
+    ]
+  }
+}

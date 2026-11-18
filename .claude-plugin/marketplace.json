@@ -1,0 +1,27 @@
+{
+  "name": "be-human",
+  "description": "Removes the AI face from apps, UIs, platforms, copy, slides, and anything produced with AI — replacing Lucide/purple-gradient slop with Phosphor Icons, Lottie motion, visual anchors, WCAG-checked hex palettes, 84 DESIGN.md systems, EN/pt-BR de-AI prose, and Playwright verification.",
+  "owner": {
+    "name": "Be Human"
+  },
+  "plugins": [
+    {
+      "name": "be-human",
+      "description": "Anti-AI-slop plugin for UIs, apps, platforms, copy, and slides: Phosphor Icons + Lottie, visual-anchor-first workflow, WCAG-checked hex palettes, 84 DESIGN.md systems, EN/pt-BR copy humanizer, static slop scanner, and Playwright browser audit.",
+      "version": "1.1.0",
+      "source": "./",
+      "skills": [
+        "./skills/be-human-ui",
+        "./skills/visual-anchor-to-code",
+        "./skills/design-md-systems",
+        "./skills/humanize-copy",
+        "./skills/ui-verify-and-audit",
+        "./skills/platform-craft",
+        "./skills/de-slop-refactor",
+        "./skills/human-slides"
+      ],
+      "license": "MIT",
+      "keywords": ["anti-slop", "design", "ui", "ux", "humanizer", "phosphor", "playwright", "design-md", "slides"]
+    }
+  ]
+}

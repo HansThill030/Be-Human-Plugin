@@ -1,0 +1,19 @@
+{
+  "name": "be-human",
+  "interface": {
+    "displayName": "Be Human"
+  },
+  "plugins": [
+    {
+      "name": "be-human",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Design"
+    }
+  ]
+}

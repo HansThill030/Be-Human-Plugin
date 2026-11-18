@@ -1,0 +1,13 @@
+---
+description: Be Human anti-AI-slop rules for UI, apps, copy, and slides
+alwaysApply: true
+---
+
+# Be Human — Anti-AI-Slop Rules
+
+- **Icons & Motion**: Never default to `lucide-react`. Use Phosphor Icons (`@phosphor-icons/react`) and Lottie (`@lottiefiles/dotlottie-react`) for purposeful micro-interactions. Ban decorative sparkles/lightning/brain icons and emoji icons in nav/sidebars.
+- **Visual Anchors First**: Ground UIs in a screenshot, generated visual reference, or a `DESIGN.md` from `skills/design-md-systems/catalog/` before coding.
+- **Balanced Hex Palette**: Ban blue-to-purple gradient soup AND the cream+terracotta+italic-serif fallback AND untouched `shadcn/ui` stock tokens. Define an explicit hex color table before coding.
+- **Anti-Slop Layout & Motion**: No `border-l-4` accent-bar cards, no cards-inside-cards, no all-caps eyebrow spam, no italic-serif word flourish in sans headlines, no `opacity: 0` scroll-reveal traps, no hover-lift on non-clickable cards, no KPI count-ups, no typewriter headlines.
+- **De-AI Copy (EN & pt-BR)**: No em-dash (`—`) asides, no repeated connectors ("Moreover", "Além disso"), no hype words ("delve", "jornada"), no `"X, not Y"` matched-pair slogans, no self-describing meta-sentences, no `[Pending...]` placeholders.
+- **Verify**: Check rendered UIs in Playwright at `1440x900` and `390x844` before declaring done.
