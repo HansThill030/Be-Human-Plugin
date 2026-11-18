@@ -1,5 +1,7 @@
 # Be Human
 
+![Be Human — AI Slop vs. Human Craft](assets/social-preview.png)
+
 **Be Human** removes the "AI face" from sites, apps, platforms, copy, slides, and anything produced with AI.
 
 ## Works Across Every AI Agent
